@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100&display=swap');
+
+/* Background color */
+body {
+    background-color: #f6ae98;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    color: white;
+    font-family: 'Libre Franklin', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* Aumentando a espessura do texto */
+h1 {
+    font-size: 100px;
+    font-weight: 700; /* Aumenta a espessura do texto */
+    margin-bottom: 50px;
+    transition: color 0.3s ease;
+}
+
+/* Botão */
+.btn-start {
+    font-size: 40px;
+    font-weight: 700; /* Aumenta a espessura do texto do botão */
+    text-decoration: none;
+    color: #007bff;
+    border-color: #007bff;
+    padding: 10px 20px;
+    border-radius: 30px;
+    transition: color 0.3s ease, border-color 0.3s ease;
+}
+
+/* Hover effects */
+h1:hover {
+    color: #f88d6a;
+}
+
+.btn-start:hover {
+    color: #f88d6a;
+    border-color: #f88d6a;
+}
+
+/* Responsive adjustments for smaller screens */
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 70px;
+    }
+
+    .btn-start {
+        font-size: 30px;
+        padding: 12px 24px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    h1 {
+        font-size: 50px;
+    }
+
+    .btn-start {
+        font-size: 20px;
+        padding: 10px 20px;
+    }
+}
